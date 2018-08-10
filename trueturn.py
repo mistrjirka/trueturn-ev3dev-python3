@@ -11,7 +11,7 @@ class TrueTurn:
 			self.GS = GyroSensor(gyroPort)
 		self.M1 = LargeMotor(motor1Port)
 		self.M2 = LargeMotor(motor2Port)
-	def turn(degrees):
+	def turn(self, degrees):
 		multiplayer = -1
 		if degrees > 0:
 			multiplayer = 1 
